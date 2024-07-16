@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Results</title>
+</head>
+<body>
+    <header>
+        <div id="menu-container"></div>
+    </header>
+    <main class="container">
+        <h1>Results</h1>
+        <p>This is the results page.</p>
+    </main>
+    <script>
+        const menuHTML = `
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="biofilia-test.html">Biofilia Test</a></li>
+                    <li><a href="results.html">Results</a></li>
+                    <!-- Add other menu items here -->
+                </ul>
+            </nav>
+        `;
+        document.getElementById('menu-container').innerHTML = menuHTML;
+    </script>
+</body>
+</html>
